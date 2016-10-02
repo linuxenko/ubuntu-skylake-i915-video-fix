@@ -17,6 +17,7 @@ Tested on:  <br />
      * ubuntu wily (15.10)  <br />
      * ubuntu xenial (16.04) ([4.3.5 kernel](https://github.com/linuxenko/ubuntu-skylake-i915-video-fix/issues/9))  <br />
      * ubuntu xenial (16.04) (4.6 kernel) <br />
+     * ubuntu xenial (16.04) (4.7.6 kernel) <br />
      * deepin linux (15.3) (4.4 kernel)
      
 ## installation <br />
@@ -67,6 +68,16 @@ sudo update-initramfs -u -k all
     from [kernel-ppa/mainline/v4.6-yakkety](http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.6-yakkety/)
     * You also might want to prevent Installation of future 4.4 kernel updates  
     with `sudo apt-mark hold linux-image-generic linux-headers-generic`
+
+### Kernel - 4.7.6
+
+  * 4.7.6 kernel from kernel-ppa/mainline/v4.7.6/ fixed all issues that I had with video on Ubuntu 16.04.
+All other solutions described here didn't work for me.
+  * Installation:
+
+    * Download and install `linux-headers-4.7.6-xxx_all.deb` , `linux-headers-4.7.6-xxx-generic_xxx_i386/amd64.deb`
+    and `linux-image-4.7.6-xxx-generic_xxx_i386/amd64.deb`
+    from [kernel-ppa/mainline/v4.7.6](http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.7.6/)
 
 ## Contribution
 
