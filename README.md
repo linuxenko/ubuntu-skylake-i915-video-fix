@@ -14,6 +14,7 @@ The problem :<br />
 
 
 Tested on:  <br />
+     * ubuntu trusty tahr ([14.04](https://github.com/linuxenko/ubuntu-skylake-i915-video-fix/issues/21)) <br />
      * ubuntu wily (15.10)  <br />
      * ubuntu xenial (16.04) ([4.3.5 kernel](https://github.com/linuxenko/ubuntu-skylake-i915-video-fix/issues/9))  <br />
      * ubuntu xenial (16.04) (4.6 kernel) <br />
