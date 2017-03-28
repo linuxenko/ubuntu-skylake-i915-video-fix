@@ -80,6 +80,11 @@ All other solutions described here didn't work for me.
     and `linux-image-4.7.6-xxx-generic_xxx_i386/amd64.deb`
     from [kernel-ppa/mainline/v4.7.6](http://kernel.ubuntu.com/~kernel-ppa/mainline/v4.7.6/)
 
+### Kernel - 4.8 - Ubuntu 16.04.2
+   * In Select a cell in LibreOffice does not show boarder and cursor disappears. Script fixes it
+   On old PC with Intel Graphics Media Accelerator 4500 (integrated)
+
+
 ## Contribution
 
  * Testing results and fixes contribution are highly appreciated.
