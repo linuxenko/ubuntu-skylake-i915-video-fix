@@ -25,13 +25,13 @@ Tested on:  <br />
 * Copy 20-intel.conf from repository to /usr/share/X11/xorg.conf.d/20-intel.conf <br />
 * Restart / reboot the system <br />
 
-Lazy fix
+Lazy fix:
 ```
 cd /tmp
 wget https://github.com/linuxenko/ubuntu-skylake-i915-video-fix/releases/download/v1/20-intel.conf
 sudo cp 20-intel.conf /usr/share/X11/xorg.conf.d/20-intel.conf
 ```
-Restart system then. <br />
+And restart system then. <br />
 
 ### Kernel 4.2.0-x  -  4.3.x issues
 
